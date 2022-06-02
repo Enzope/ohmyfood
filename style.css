@@ -14,7 +14,7 @@ body
 {
     font-size: 16px;    
     margin:0 auto;
-    background-color:#f6f6f6;/*#F2F2F2;*/
+    background-color:#f6f6f6;
     font-family: 'Roboto', sans-serif;   
 }
 
@@ -128,7 +128,7 @@ main
     
     -webkit-animation: spinner 0.5s linear 5;
     
-    animation: spinner 0.5s linear 5;/* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-iteration-count]; */ 
+    animation: spinner 0.5s linear 5;
 }
  
 #loader:before 
@@ -145,7 +145,7 @@ main
      
 	-webkit-animation: spinner 0.75s linear 3;
     
-	animation: spinner 0.75s linear 3;/* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-iteration-count]; */   
+	animation: spinner 0.75s linear 3;  
 }
  
 #loader:after 
@@ -162,7 +162,7 @@ main
     
 	-webkit-animation: spinner 1.25s linear 2;
         
-	animation: spinner 1.25s linear 2;/* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-iteration-count]; */    
+	animation: spinner 1.25s linear 2; 
     
 }
  
@@ -170,18 +170,18 @@ main
 {
     0%   
     {
-        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-        -ms-transform: rotate(0deg); /* IE 9 */
-        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        -webkit-transform: rotate(0deg);  
+        -ms-transform: rotate(0deg); 
+        transform: rotate(0deg);  
         z-index:15; 
     }
     
     100% 
     {
-        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-        -ms-transform: rotate(360deg);  /* IE 9 */
-        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-        z-index:15;       
+        -webkit-transform: rotate(360deg);  
+        -ms-transform: rotate(360deg);  
+        transform: rotate(360deg);
+        z-index:15;  
     }
 }
 
@@ -189,18 +189,18 @@ main
 {
     0%   
     {
-        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-        -ms-transform: rotate(0deg);  /* IE 9 */
-        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        -webkit-transform: rotate(0deg);  
+        -ms-transform: rotate(0deg);  
+        transform: rotate(0deg);  
         z-index:15; 
     }
     
     100% 
     {
-        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-        -ms-transform: rotate(360deg);  /* IE 9 */
-        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-        z-index:15;         
+        -webkit-transform: rotate(360deg);  
+        -ms-transform: rotate(360deg);  
+        transform: rotate(360deg);
+        z-index:15;  
     }
 }
 
@@ -210,7 +210,7 @@ main
 .localisation
 {
     
-    background-color: #eaeaea;/*#eeeded;*/
+    background-color: #eaeaea;
     display:flex;justify-content:center;
     height:50px;   
     box-shadow: inset 0em 0.125em rgba(128, 128, 128, .152);
@@ -228,7 +228,7 @@ main
 {
     max-width:55px;width:100%;
     font-size:18px;
-    /*height:65px;*/ height:100%;
+    height:100%;
     align-content: center;   
     display:flex;
     justify-content:center;
@@ -289,8 +289,6 @@ h1 /* 1 seul h1 dans la page */
    border:transparent;
    box-shadow: 6px 6px 4px  #e7e7e7;   
    transition: box-shadow 0.3s, filter 0.3s;
-
-   /*text-align: center;*/
 }
 .descriptif__input--button p
 {
@@ -352,13 +350,6 @@ a.fonctions__options__choix:hover
     background-color:#f5edff;  
 }
 
-/*
-https://www.zonecss.fr/proprietes-css/hover-css-selector.html
-identifiant:hover a{
- propriétés Css pour les fils de type A de l'élément survolé  
-}
-donc chez moi i
-*/
 a.fonctions__options__choix:hover i
 {
     color:#9356dc;
@@ -419,7 +410,7 @@ a.fonctions__options__choix:hover i
     color: #058a69;
     width:80px;height:30px;
     border-radius: 3px;
-    display:flex;/*flex:1;*/
+    display:flex;
     justify-content: center;
     align-items: center;
     font-size:16px;font-weight:bold;  
@@ -436,7 +427,7 @@ a.fonctions__options__choix:hover i
 {
     background-color: white;
     border-radius: 25px; 
-    /*min-width:335px;flex:1;*/min-width:250px;
+    min-width:250px;
     display:flex;flex:1;
     flex-direction:column;
     flex-wrap:wrap;
@@ -457,7 +448,7 @@ a.fonctions__options__choix:hover i
 .class_top
 {
     width:100%;
-    height:175px;/*118px;*/
+    height:175px;
     border-top-left-radius: 19px;
     border-top-right-radius: 19px;
     cursor: pointer;
@@ -469,19 +460,18 @@ a.fonctions__options__choix:hover i
     border-bottom-left-radius: 19px;
     border-bottom-right-radius: 19px;
     cursor: pointer;
-    /*workaround  bug in chrome */
     font-size:16px;
     display: flex;
     flex-direction:column ;
     justify-content: flex-start;gap:5px;    
-    height:77px;/*height:100%;*/
+    height:77px;
     gap:14px;
 }
 
 .class_bold
 {
     font-weight:bold;
-    font-size:16px;/*workaround  bug in chrome */
+    font-size:16px;
 }
 
 .FlexView
@@ -507,7 +497,7 @@ a.fonctions__options__choix:hover i
 }
 i.coeurplein
 {
-    /*z-index:6;*/opacity:0;z-index:8;
+    opacity:0;z-index:8;
 }
 i.coeurvide
 {
@@ -520,7 +510,6 @@ i.coeurvide:hover
 
 i.coeurplein:hover
 {
-    /*z-index:8;*/
     animation: fillheart 0.3s linear forwards;
     opacity:1;
 }
@@ -562,10 +551,6 @@ i.coeurplein:hover
         color: transparent;font-size:24.25px;
     }
 }
-/*i.coeurplein:before, i.coeurvide:before 
-{
-    display: initial;
-}*/
 
 
 /* footer */
